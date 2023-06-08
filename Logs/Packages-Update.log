@@ -54,3 +54,14 @@ The following packages were added:
   com.unity.cinemachine@2.8.9
   com.unity.inputsystem@1.4.4
   com.unity.render-pipelines.universal@12.1.6
+
+=== Thu May 25 15:29:27 2023
+
+Packages were changed.
+Update Mode: resetToDefaultDependencies
+
+The following packages were removed:
+  com.unity.cinemachine@2.8.9
+  com.unity.feature.development@1.0.1
+  com.unity.inputsystem@1.4.4
+  com.unity.render-pipelines.universal@13.1.8

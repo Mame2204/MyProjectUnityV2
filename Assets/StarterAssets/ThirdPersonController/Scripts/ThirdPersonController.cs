@@ -19,7 +19,7 @@ namespace StarterAssets
         public float MoveSpeed = 2.0f;
 
         [Tooltip("Sprint speed of the character in m/s")]
-        public float SprintSpeed = 5.335f;
+        public float SprintSpeed = 25.335f;//5.335f;
 
         [Tooltip("How fast the character turns to face movement direction")]
         [Range(0.0f, 0.3f)]
@@ -114,11 +114,11 @@ namespace StarterAssets
         {
             get
             {
-#if ENABLE_INPUT_SYSTEM
-                return _playerInput.currentControlScheme == "KeyboardMouse";
-#else
-				return false;
-#endif
+                #if ENABLE_INPUT_SYSTEM
+                                return _playerInput.currentControlScheme == "KeyboardMouse";
+                #else
+                                return false;
+                #endif
             }
         }
 
@@ -139,11 +139,11 @@ namespace StarterAssets
             _hasAnimator = TryGetComponent(out _animator);
             _controller = GetComponent<CharacterController>();
             _input = GetComponent<StarterAssetsInputs>();
-#if ENABLE_INPUT_SYSTEM 
-            _playerInput = GetComponent<PlayerInput>();
-#else
-			Debug.LogError( "Starter Assets package is missing dependencies. Please use Tools/Starter Assets/Reinstall Dependencies to fix it");
-#endif
+            #if ENABLE_INPUT_SYSTEM 
+                        _playerInput = GetComponent<PlayerInput>();
+            #else
+                        Debug.LogError( "Starter Assets package is missing dependencies. Please use Tools/Starter Assets/Reinstall Dependencies to fix it");
+            #endif
 
             AssignAnimationIDs();
 
