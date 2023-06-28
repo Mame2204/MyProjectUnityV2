@@ -350,8 +350,14 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/chargement_de_niveau.cs"
+"Assets/CoinCollectionOnCube.cs"
 "Assets/Controllers/CameraController.cs"
+"Assets/GameOver.cs"
+"Assets/Music/AudioScript.cs"
 "Assets/PMovement.cs"
+"Assets/Scripts/CoinCollection.cs"
+"Assets/Scripts/MenuController.cs"
 "Assets/Sons/Scripts/SoundEffectsHelper.cs"
 "Assets/StarterAssets/InputSystem/StarterAssetsInputs.cs"
 "Assets/StarterAssets/Mobile/Scripts/CanvasInputs/UICanvasControllerInput.cs"
@@ -360,8 +366,11 @@
 "Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualJoystick.cs"
 "Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualTouchZone.cs"
 "Assets/StarterAssets/ThirdPersonController/Scripts/BasicRigidBodyPush.cs"
+"Assets/StarterAssets/ThirdPersonController/Scripts/move.cs"
 "Assets/StarterAssets/ThirdPersonController/Scripts/ThirdPersonController.cs"
 "Assets/StarterAssets/TutorialInfo/Scripts/Readme.cs"
+"Assets/TempsScript.cs"
+"Assets/TimerScript.cs"
 -langversion:9.0
 
 /deterministic
